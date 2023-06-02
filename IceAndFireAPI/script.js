@@ -48,12 +48,11 @@ function loadCardDetails(dataObject, imageLink){
                   <div class="col-md-8">
                        <div class="card-body">
                             <h5 class="card-title">${dataObject.name}</h5>
-                            <p class="card-text">${dataObject.authors[0]}</p>
-                            <p class="card-text">${dataObject.isbn}</p>
-                            <p class="card-text">${dataObject.numberOfPages}</p>
-                            <p class="card-text">${dataObject.publisher}</p>
-                            <p class="card-text">${dataObject.released}</p>
-                            <p class="card-text"></p>
+                            <p class="card-text">Author:${dataObject.authors[0]}</p>
+                            <p class="card-text">ISBN:${dataObject.isbn}</p>
+                            <p class="card-text">Number of Pages:${dataObject.numberOfPages}</p>
+                            <p class="card-text">Publisher:${dataObject.publisher}</p>
+                            <p class="card-text">Released at:${dataObject.released}</p>
                        </div>
                   <div>
              </div>
